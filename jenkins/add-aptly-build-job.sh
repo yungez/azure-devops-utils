@@ -96,7 +96,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y openjdk-8-jdk
 gradle_version="3.5"
 echo "Installing Gradlew ${gradle_version}..." 
 wget -nv https://services.gradle.org/distributions/gradle-${gradle_version}-bin.zip
-sudo unzip gradle-${gradle_version}-bin.zip -d /opt/gradle
+sudo unzip -o gradle-${gradle_version}-bin.zip -d /opt/gradle
 sudo ln -s /opt/gradle/gradle-${gradle_version}/bin/gradle /usr/bin/gradle
 
 run_util_script "jenkins/run-cli-command.sh" -c "install-plugin git -restart"
