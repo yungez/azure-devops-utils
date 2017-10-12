@@ -36,8 +36,8 @@ function run_util_script() {
 }
 
 #defaults
-artifacts_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/master/"
-jenkins_version_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/master/jenkins/jenkins-verified-ver"
+artifacts_location="https://raw.githubusercontent.com/yungez/azure-devops-utils/master/"
+jenkins_version_location="https://raw.githubusercontent.com/yungez/azure-devops-utils/master/jenkins/jenkins-verified-ver"
 azure_web_page_location="/usr/share/nginx/azure"
 jenkins_release_type="LTS"
 
