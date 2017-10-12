@@ -101,7 +101,7 @@ echo "artifacts_location is ${artifacts_location}"
 wget -nv https://services.gradle.org/distributions/gradle-${gradle_version}-bin.zip
 echo "unzip -o gradle-${gradle_version}-bin.zip -d /opt/gradle"
 sudo unzip -o gradle-${gradle_version}-bin.zip -d /opt/gradle
-sudo ln -s /opt/gradle/gradle-${gradle_version}/bin/gradle /usr/bin/gradle
+sudo ln -sf /opt/gradle/gradle-${gradle_version}/bin/gradle /usr/bin/gradle
 
 run_util_script "jenkins/run-cli-command.sh" -c "install-plugin git -restart"
 
