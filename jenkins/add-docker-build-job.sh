@@ -55,7 +55,7 @@ job_description="A basic pipeline that builds a Docker container. The job expect
 repository="${USER}/myfirstapp"
 scm_poll_schedule=""
 scm_poll_ignore_commit_hooks="0"
-artifacts_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/master/"
+artifacts_location="https://raw.githubusercontent.com/yungez/azure-devops-utils/master/"
 
 while [[ $# > 0 ]]
 do

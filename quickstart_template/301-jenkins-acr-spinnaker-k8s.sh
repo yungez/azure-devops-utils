@@ -112,7 +112,7 @@ EOF
 
 #Set defaults
 pipeline_port="8000"
-artifacts_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/master/"
+artifacts_location="https://raw.githubusercontent.com/yungez/azure-devops-utils/master/"
 docker_repository="${vm_user_name}/myfirstapp"
 
 while [[ $# > 0 ]]

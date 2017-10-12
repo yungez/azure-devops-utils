@@ -31,7 +31,7 @@ function throw_if_empty() {
 port="8000"
 user_name="[anonymous]"
 user_email="anonymous@Fabrikam.com"
-artifacts_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/master/"
+artifacts_location="https://raw.githubusercontent.com/yungez/azure-devops-utils/master/"
 
 while [[ $# > 0 ]]
 do

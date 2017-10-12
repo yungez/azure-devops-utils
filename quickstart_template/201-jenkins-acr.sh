@@ -39,7 +39,7 @@ function run_util_script() {
 }
 
 #defaults
-artifacts_location="https://raw.githubusercontent.com/Azure/azure-devops-utils/master/"
+artifacts_location="https://raw.githubusercontent.com/yungez/azure-devops-utils/master/"
 while [[ $# > 0 ]]
 do
   key="$1"
